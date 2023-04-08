@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faBolt } from '@fortawesome/free-solid-svg-icons';
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import iconoLogo from "../images/DH.ico";
@@ -29,7 +29,7 @@ const Navbar = () => {
           <input type="checkbox" class="checkbox" id="checkbox" onClick={() => { dispatch({ type: 'changeTheme' }) }}/>
             <label for="checkbox" class="label">
               <FontAwesomeIcon icon={faMoon} />
-              <FontAwesomeIcon icon={faSun} />
+              <FontAwesomeIcon icon={faBolt} />
               <div class='ball'/>
             </label>
         </div>
