@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -49,8 +49,6 @@ label {
   margin-right: 10px;
   justify-content: space-between;
 }
-
-
 
 a{
   color: #000;
@@ -103,8 +101,6 @@ input[type="checkbox" i] {
   margin-right: 10px;
 }
 
-
-
 form{
   display: flex;
   flex-direction: column;
@@ -137,7 +133,6 @@ form{
   height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
-  
 }
 
 table {
@@ -146,7 +141,6 @@ table {
     width: 100vw;
     display: table;
     border: 1px solid #ccc;
-
 }
 
 td, th {
